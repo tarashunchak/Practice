@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Switch Control Panel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="bg-light p-4" style="font-family: Lato, Consolas;">
+
+  <div class="container" style="border:1px solid #626262;">
+    <h4 class="mb-3">Switch Information</h4>
+    <table class="table table-sm table-bordered">
+      <tbody>
+        <tr><th>Description:</th><td>DGS-1210-28 Gigabit Smart Switch</td></tr>
+        <tr><th>Location:</th><td>Ofis_3_Povitroflotsky_25</td></tr>
+        <tr><th>IP:</th><td>192.168.100.12</td></tr>
+        <tr><th>MAC:</th><td>00:1C:42:7E:2B:60</td></tr>
+        <tr><th>Address:</th><td>Povitroflotsky Ave 25, 3rd floor</td></tr>
+      </tbody>
+    </table>
+    <button class="btn btn-primary w-100">Edit switch data</button>
+
+    <div class="mb-4">
+      <h5>Controls</h5>
+      <div class="d-flex flex-column" style="border:1px solid #626262;">
+        <button class="btn btn-secondary my_btn">Reload</button>
+        <button class="btn btn-secondary my_btn">Ping</button>
+        <button class="btn btn-secondary my_btn">MAC addresses from ports</button>
+        <button class="btn btn-secondary my_btn">Switch location</button>
+        <button class="btn btn-secondary my_btn">Console Telnet</button>
+        <button class="btn btn-secondary my_btn">Disconnect all users</button>
+      </div>
+    </div>
+
+    <div class="text-center mb-2 fw-bold w-100" id='my_label'>D-Link DGS-1210-28</div>
+    <div class="text-center mb-2 fw-bold w-100" id='my_label'>Free Ports</div>
+    <div class="row justify-content-center">
+      <div class="port-box port-up col-auto fixed-width">
+        <div><strong>1</strong> Ivanenko Dmytro</div>
+        <div>100Mbps</div>
+        <div>On</div>
+        <button class="btn btn-primary on_off_btn">On</button>
+      </div>
+      <div class="port-box port-up col-auto fixed-width">
+        <div><strong>2</strong> Shevchenko Olha</div>
+        <div>100Mbps</div>
+        <div>On</div>
+        <button class="btn btn-primary on_off_btn">On</button>
+      </div>
+      <div class="port-box port-down col-auto fixed-width">
+        <div><strong>3</strong> Kravets Andrii</div>
+        <div>0Mbps</div>
+        <div>Off</div>
+        <button class="btn btn-primary on_off_btn">On</button>
+      </div>
+      <div class="port-box port-up col-auto fixed-width">
+        <div><strong>4</strong> HR Printer</div>
+        <div>100Mbps</div>
+        <div>On</div>
+        <button class="btn btn-primary on_off_btn">On</button>
+      </div>
+      <div class="port-box port-down col-auto fixed-width">
+        <div><strong>5</strong> Vacant</div>
+        <div>0Mbps</div>
+        <div>Off</div>
+        <button class="btn btn-primary on_off_btn">On</button>
+      </div>
+      <div class="port-box port-up col-auto fixed-width">
+        <div><strong>6</strong> Serhiyenko Liliya</div>
+        <div>100Mbps</div>
+        <div>On</div>
+        <button class="btn btn-primary on_off_btn">On</button>
+      </div>
+      <div class="port-box port-down col-auto fixed-width">
+        <div><strong>7</strong> Test Device</div>
+        <div>0Mbps</div>
+        <div>Off</div>
+        <button class="btn btn-primary on_off_btn">On</button>
+      </div>
+      <div class="port-box port-up col-auto fixed-width">
+        <div><strong>8</strong> Uplink to Core Switch</div>
+        <div>1000Mbps</div>
+        <div>UpTime: 245d</div>
+        <button class="btn btn-primary on_off_btn">On</button>
+      </div>
+      <div class="port-box port-up col-auto fixed-width">
+        <div><strong>9</strong> Prytula Oksana</div>
+        <div>100Mbps</div>
+        <div>UpTime: 25d</div>
+        <button class="btn btn-primary on_off_btn">On</button>
+      </div>
+      <div class="port-box port-up col-auto fixed-width">
+        <div><strong>10</strong> Tkachuk Yaroslav</div>
+        <div>100Mbps</div>
+        <div>UpTime: 10d</div>
+        <button class="btn btn-primary on_off_btn">On</button>
+      </div>
+      <div class="port-box port-up col-auto fixed-width">
+        <div><strong>11</strong> Melnyk Kateryna</div>
+        <div>100Mbps</div>
+        <div>UpTime: 18d</div>
+        <button class="btn btn-primary on_off_btn">On</button>
+      </div>
+      <div class="port-box port-up col-auto fixed-width">
+        <div><strong>12</strong> Dmytrenko Pavlo</div>
+        <div>100Mbps</div>
+        <div>UpTime: 5d</div>
+        <button class="btn btn-primary on_off_btn">On</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="js/script.js"></script>
+</body>
+</html>

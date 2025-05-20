@@ -1,0 +1,49 @@
+.port-box {
+  width: 160px;
+  height: 120px;
+  padding: 8px;
+  margin: 4px;
+  font-size: 0.85rem;
+  color: black;
+  border: 1px solid #333;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.port-up {
+  background-color: #d4edda;
+}
+
+.port-down {
+  background-color: #f8d7da;
+}
+
+.port-uplink {
+  background-color: #d6d8fb;
+}
+
+.fixed-width{
+  min-width: 200px;
+  max-width: 300px;
+  border-radius:0px;
+  border:1px solid #545454;
+  margin:2px;
+}
+
+div#my_label{
+  background-color: rgb(52, 70, 94);
+  height: 30px;
+  color:white;
+}
+
+.my_btn{
+  border:1px solid #545454;
+  background-color:rgb(199, 186, 142);
+  color:black;
+  text-align:left;
+  border-radius:0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
